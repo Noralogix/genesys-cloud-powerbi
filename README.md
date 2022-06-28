@@ -2,7 +2,7 @@
 
 Noralogix Power BI Connector for Genesys Cloud is a No-code Data Pipeline that automatically loads real-time live Genesys Cloud data into Power BI for you.
 
-Setup page https://powerbi.repo361.com/ 
+Setup page https://powerbi.repo361.com
 
 After configuration PowerBI dataset will be created and Genesys Cloud data imported into the dataset, new rows are incrementally added to the tables.
 
