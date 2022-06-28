@@ -24,3 +24,5 @@ PowerBI Service:
 
 5. Enable the Power BI service admin settings
 https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-3---enable-the-power-bi-service-admin-settings
+
+For more information please contact: [contactus@noralogix.com](mailto:contactus@noralogix.com)
