@@ -8,8 +8,28 @@ After configuration PowerBI dataset will be created and Genesys Cloud data impor
 
 You can create multiple reports and dashboards connected to published datasets.
 
-# Configuration 
-1. How to find your Azure Active Directory tenant ID
+# Setup
+
+Will be created Genesys Cloud Role with such permissions:
+- quality:view:evaluation
+- quality:view:evaluationForm
+- routing:view:wrapupCode
+- routing:view:queue
+- routing:search:queue
+- conversation:view:communication
+- analytics:view:conversationDetail
+- analytics:view:userObservation
+- analytics:view:conversationAggregate
+- analytics:view:userDetail
+- analytics:view:userAggregate
+- analytics:view:evaluationAggregate
+- analytics:view:userAggregate
+
+# Power BI Configuration 
+
+![lab image](powerbi-settings.png)
+
+1. Tenant Id. How to find your Azure Active Directory
 https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant
 
 2. How to create clientId, clientSecret
@@ -24,5 +44,18 @@ PowerBI Service:
 
 5. Enable the Power BI service admin settings
 https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal#step-3---enable-the-power-bi-service-admin-settings
+
+# Power BI Dataset
+
+Press save and dataset will be created under your PowerBI Workspace.
+
+![lab image](powerbi-dataset-tables.png)
+
+# Subscriptions
+
+Select queues and agents to push real time data into PowerBI
+
+![lab image](subscriptions-queues.png)
+![lab image](subscriptions-agents.png)
 
 For more information please contact: [contactus@noralogix.com](mailto:contactus@noralogix.com)
