@@ -60,6 +60,14 @@ Press save and dataset will be created under your PowerBI Workspace.
 # Subscriptions
 
 Select queues and agents to push real time data into PowerBI
+## Queues analytics observations.
+- Conversation observation metrics
+- Conversation aggregate metrics
+## Users analytics aggregates.
+- Aggregate Metrics
+- Users Routing Metrics
+- Routing Observation Metrics
+## Wrapups Aggregate Metrics
 
 ![lab image](subscriptions-queues.png)
 ![lab image](subscriptions-agents.png)
