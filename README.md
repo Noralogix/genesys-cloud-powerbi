@@ -8,6 +8,9 @@ After configuration PowerBI dataset will be created and Genesys Cloud data impor
 
 You can create multiple reports and dashboards connected to published datasets.
 
+# Demo
+[![GenesysCloud PowerBI Dashboard](http://img.youtube.com/vi/FjzMTyyq8f4/0.jpg)](https://youtu.be/FjzMTyyq8f4?t=0s)
+
 # Setup
 
 Genesys Cloud user with such permissions will be able to setup:
@@ -71,9 +74,6 @@ Select queues and agents to push real time data into PowerBI
 
 ![lab image](subscriptions-queues.png)
 ![lab image](subscriptions-agents.png)
-
-# Demo
-[![GenesysCloud PowerBI Dashboard](http://img.youtube.com/vi/FjzMTyyq8f4/0.jpg)](https://youtu.be/FjzMTyyq8f4?t=0s)
 
 # Delete
 Genesys Cloud user with such permissions will be able to do delete:
