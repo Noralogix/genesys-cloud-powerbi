@@ -10,6 +10,12 @@ You can create multiple reports and dashboards connected to published datasets.
 
 # Setup
 
+Genesys Cloud user with such permissions will be able to setup:
+- authorization:role:add
+- directory:group:add
+- oauth:client:add
+- oauth:client:edit
+
 Will be created Genesys Cloud Role with such permissions:
 - quality:view:evaluation
 - quality:view:evaluationForm
@@ -57,5 +63,11 @@ Select queues and agents to push real time data into PowerBI
 
 ![lab image](subscriptions-queues.png)
 ![lab image](subscriptions-agents.png)
+
+# Delete
+Genesys Cloud user with such permissions will be able to do delete:
+- authorization:role:delete
+- directory:group:delete
+- oauth:client:delete
 
 For more information please contact: [contactus@noralogix.com](mailto:contactus@noralogix.com)
