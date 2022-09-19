@@ -20,8 +20,6 @@ Genesys Cloud user with such permissions will be able to setup:
 - oauth:client:edit
 
 Will be created Genesys Cloud Role with such permissions:
-- quality:view:evaluation
-- quality:view:evaluationForm
 - routing:view:wrapupCode
 - routing:view:queue
 - routing:search:queue
@@ -33,6 +31,7 @@ Will be created Genesys Cloud Role with such permissions:
 - analytics:view:userAggregate
 - analytics:view:evaluationAggregate
 - analytics:view:userAggregate
+- analytics:view:queueObservation
 
 # Power BI Configuration 
 
